@@ -58,29 +58,12 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
         String stringbuzz = sbbuzz.toString();
         iInputBUZZ = Integer.parseInt(stringbuzz);
 
-        //フラグ設定
-        if (0 == (iInputFIZZ % iInputnum)) {
-            iFizzFlag = 1;
-        }
+        FizzBuzz fizzbuzz = new FizzBuzz(iInputFIZZ,iInputBUZZ);
 
-        if (0 == (iInputBUZZ % iInputnum)) {
-            iBuzzFlag = 1;
-        }
+        strOUTFIZZBUZZ = fizzbuzz.FizzBuzzStrCheck(iInputnum);
 
-        // iFizzFlagが立っている場合、FIZZを設定
-        if (1 == iFizzFlag) {
-            strOUTFIZZBUZZ = strOUTFIZZBUZZ + "FIZZ";
-        }
 
-        // iBuzzFlagが立っている場合、BUZZを設定
-        if (1 == iBuzzFlag) {
-            strOUTFIZZBUZZ = strOUTFIZZBUZZ + "BUZZ";
-        }
 
-        // フラグ立ってない場合、出力値に入力した値を設定
-        if ((0 == iFizzFlag) && (0 == iBuzzFlag)) {
-            strOUTFIZZBUZZ = String.valueOf(iInputnum);
-        }
         // strOUTFIZZBUZZをテキストを設定して表示
         textView.setText(strOUTFIZZBUZZ);
     }

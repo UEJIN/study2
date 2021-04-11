@@ -28,10 +28,10 @@
         android:inputType="number"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.635"
+        app:layout_constraintHorizontal_bias="0.636"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextFIZZ"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.73" />
 
     <TextView
         android:id="@+id/INPUTLABEL2"
@@ -40,10 +40,10 @@
         android:text="BUZZ"
         app:layout_constraintBottom_toTopOf="@+id/button1"
         app:layout_constraintEnd_toStartOf="@+id/editTextBUZZ"
-        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.412" />
+        app:layout_constraintVertical_bias="0.434" />
 
     <TextView
         android:id="@+id/INPUTLABEL3"
@@ -53,10 +53,10 @@
         android:text="FIZZ"
         app:layout_constraintBottom_toTopOf="@+id/button1"
         app:layout_constraintEnd_toStartOf="@+id/editTextFIZZ"
-        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintHorizontal_bias="0.369"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.682" />
 
     <TextView
         android:id="@+id/INPUTLABEL"
@@ -65,10 +65,10 @@
         android:text="数字を入力"
         app:layout_constraintBottom_toTopOf="@+id/button1"
         app:layout_constraintEnd_toStartOf="@+id/editText1"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.324"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.669" />
+        app:layout_constraintVertical_bias="0.672" />
 
     <TextView
         android:id="@+id/textView1"
